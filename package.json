@@ -1,0 +1,22 @@
+{
+    "name": "ntask-api",
+    "version": "1.0.0",
+    "description": "API de gestão de tarefas",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Eric Pires Gorza",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "consign": "^0.1.6",
+        "express": "^4.18.3",
+        "gitignore-cli": "^0.0.1",
+        "jwt-simple": "^0.5.6",
+        "passport": "^0.7.0",
+        "passport-jwt": "^4.0.1",
+        "sequelize": "^6.37.1",
+        "sqlite3": "^5.1.7"
+    }
+}

@@ -1,0 +1,5 @@
+# Exemplos de entradas comuns
+node_modules/
+dist/
+.env
+config.js
