@@ -5,13 +5,15 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "NODE_ENV=test mocha test/**/*.js"
+        "test": "NODE_ENV=test mocha test/**/*.js",
+        "test:esm": "NODE_ENV=test mocha --require esm test/**/*.mjs"
     },
     "author": "Eric Pires Gorza",
     "dependencies": {
         "bcrypt": "^5.1.1",
         "body-parser": "^1.20.2",
         "consign": "^0.1.6",
+        "esm": "^3.2.25",
         "express": "^4.18.3",
         "gitignore-cli": "^0.0.1",
         "jwt-simple": "^0.5.6",
