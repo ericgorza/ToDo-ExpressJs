@@ -5,8 +5,15 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
+        "apidoc": "apidoc -i routes/ -o public/apidoc",
         "test": "NODE_ENV=test mocha test/**/*.js",
         "test:esm": "NODE_ENV=test mocha --require esm test/**/*.mjs"
+    },
+    "apidoc": {
+        "name": "Documentação - Node Task API",
+        "template": {
+            "forceLanguage": "pt_br"
+        }
     },
     "author": "Eric Pires Gorza",
     "dependencies": {
@@ -23,6 +30,7 @@
         "sqlite3": "^5.1.7"
     },
     "devDependencies": {
+        "apidoc": "^1.2.0",
         "chai": "^5.1.0",
         "mocha": "^10.3.0",
         "supertest": "^6.3.4"
