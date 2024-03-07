@@ -1,0 +1,10 @@
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='tasks';"}
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): PRAGMA INDEX_LIST(`tasks`)"}
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';"}
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): PRAGMA INDEX_LIST(`users`)"}
+{"level":"info","message":"[Thu Mar 07 2024 12:13:17 GMT-0800 (Pacific Standard Time)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)"}
+{"level":"info","message":"::1 - - [07/Mar/2024:20:13:29 +0000] \"GET / HTTP/1.1\" 304 -\n"}
+{"level":"info","message":"::1 - - [07/Mar/2024:20:13:34 +0000] \"GET /tasks HTTP/1.1\" 401 -\n"}
+{"level":"info","message":"::1 - - [07/Mar/2024:20:13:41 +0000] \"GET /users HTTP/1.1\" 404 144\n"}
+{"level":"info","message":"::1 - - [07/Mar/2024:20:13:44 +0000] \"GET / HTTP/1.1\" 304 -\n"}
